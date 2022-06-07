@@ -25,8 +25,8 @@ class Header extends Component {
                 <Navbar dark expand="md">
                     <div className="container header-container">
                         <NavbarToggler onClick={this.toggleNav} />
-                        <NavbarBrand className="mr-0" href="/">
-                            <img class="brand-image" src="assets/images/logo.png" height="30" width="41" alt="Ritorante Con Fusion"></img>
+                        <NavbarBrand className="mr-auto" href="/">
+                            <img className="brand-image" src="assets/images/logo.png" height="30" width="41" alt="Ritorante Con Fusion"></img>
                         </NavbarBrand>
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar>
@@ -55,7 +55,7 @@ class Header extends Component {
                     </div>
                 </Navbar>
                 <div className='pb-3 mb-4 rounded-3 jumbotron'>
-                    <div className="container-fluid py-5 col-sm-12">
+                    <div className="container-fluid p-5 col-sm-12">
                         <h1 className="display-5 fw-bold">
                             Ristorante Con Fusion
                         </h1>
